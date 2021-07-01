@@ -1,0 +1,11 @@
+package day20;
+
+public class Ex03 {
+	public static void main(String[] args) {
+		int[] arr = new int[] {
+				5,7,2,4,3,6,5,8,4,9
+		};
+		
+		ArrayList
+	}
+}

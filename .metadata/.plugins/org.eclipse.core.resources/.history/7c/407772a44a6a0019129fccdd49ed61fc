@@ -1,0 +1,18 @@
+package day18;
+
+class A{
+	void method() {
+		System.out.println("A");
+	}
+}
+class B{
+	void method() {
+		System.out.println("B");
+	}
+}
+
+public class Ex01 {
+	public static void main(String[] args) {
+		
+	}
+}

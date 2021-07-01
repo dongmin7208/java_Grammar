@@ -1,0 +1,22 @@
+package day21;
+
+import java.awt.Dimension;
+import java.awt.Point;
+import java.awt.Toolkit;
+
+public class MyFrame0x {
+	Dimension screenSize = 
+			Toolkit.getDefaultToolkit().getScreenSize();
+	Dimension size = new Dimension();
+	Point loc = new Point();
+	public MyFrame0x() {
+		size.width = 400;
+		size.height = 500;
+		f.setSize(size);
+		loc.x = (screenSize.width/2) - (f.getWidth()/2);
+		loc.y = (screenSize.height/2) - (f.getHeight()/2);
+		
+		f.setLocation(loc);
+		f.setResizable(false);
+	}
+}

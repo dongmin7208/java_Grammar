@@ -1,0 +1,10 @@
+package day18;
+/*
+ * abstract 추상 명시.
+ */
+class 동물{
+	void 움직인다() {}
+}
+public class Ex02 {
+
+}

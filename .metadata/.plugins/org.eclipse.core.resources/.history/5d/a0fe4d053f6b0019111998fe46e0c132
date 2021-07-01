@@ -1,0 +1,18 @@
+package day19;
+
+public class Info{
+	String name;
+	int age;
+	Info(String name, int age){
+		this.name = name; this.age = age;
+	}
+	
+	public int hashCode() {
+		System.out.println("hashCode»£√‚µ ");
+		return super.hashCode();
+	}
+	
+	public String toString() {
+		return "[" + name + ", "+ age + "]";
+	}
+}

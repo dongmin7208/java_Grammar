@@ -1,0 +1,14 @@
+package day19;
+class Info{
+	String name;
+	int age;
+	Info(String name, int age){
+		this.name = name; this.age = age;
+	}
+	public String toString() {
+		return "[" + name + ", "+ age + "]";
+	}
+}
+public class Ex01 {
+	
+}

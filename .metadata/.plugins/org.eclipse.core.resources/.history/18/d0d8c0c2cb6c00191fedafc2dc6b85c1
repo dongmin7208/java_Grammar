@@ -1,0 +1,11 @@
+package day21;
+
+import java.awt.Frame;
+
+public class Ex01 {
+	public static void main(String[] args) {
+		Frame f = new Frame();
+		f.setVisible(true);
+		f.setSize(400, 500);
+	}
+}

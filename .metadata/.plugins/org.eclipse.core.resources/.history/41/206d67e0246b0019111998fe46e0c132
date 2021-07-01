@@ -1,0 +1,9 @@
+package day19;
+
+import java.util.HashSet;
+
+public class Lotto {
+	public static void main(String[] args) {
+		HashSet lottoNum = new HashSet();
+	}
+}

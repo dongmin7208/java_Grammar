@@ -1,0 +1,11 @@
+package day18;
+
+/*
+ * interface : 완전한 추상클래스
+ */
+abstract class Animal{
+	abstract void 움직인다();
+}
+public class Ex03 {
+
+}

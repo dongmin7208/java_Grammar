@@ -1,0 +1,24 @@
+package day20;
+
+import java.util.HashSet;
+import java.util.Iterator;
+
+
+public class Ex01 {
+	public static void main(String[] args) {
+		Info[] arr = new Info[3];
+		arr[0] = new Info("ȫ�浿", 20);
+		arr[1] = new Info("ȫ�浿", 20);
+		arr[2] = new Info("ȫ�浿", 20);
+		
+		ArrayList<Info> ls = new ArrayList<Info>();
+		ls.add(arr[0]);
+		ls.add(arr[1]);
+		ls.add(arr[2]);
+		
+		Iterator it = hs.iterator();
+		while(it.hasNext()) {
+			System.out.println(it.next());
+		}
+	}
+}

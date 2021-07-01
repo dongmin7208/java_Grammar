@@ -1,0 +1,36 @@
+package day20;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+
+public class Ex01 {
+	public static void main(String[] args) {
+		Info[] arr = new Info[3];
+		arr[0] = new Info("È«±æµ¿", 20);
+		arr[1] = new Info("È«±æµ¿", 20);
+		arr[2] = new Info("È«±æµ¿", 20);
+		
+		ArrayList<Info> ls = new ArrayList<Info>();
+		ls.add(arr[0]);
+		ls.add(arr[1]);
+		ls.add(arr[2]);
+		
+		for(Info tmp : ls) {
+			System.out.println(tmp);
+		}
+		Info tmp = arr[1];
+		Info tmp2 = new Info("È«±æµ¿", 20);
+		System.out.println("tmp2°´Ã¼:" + tmp2);
+		//boolean contains(E e);
+		System.out.println(ls.contains(tmp2));
+		
+		ArrayList ls2 = new ArrayList();
+		
+	}
+}
+
+
+
+
+

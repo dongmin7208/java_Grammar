@@ -1,0 +1,41 @@
+package day18;
+
+/*
+ * interface : 완전한 추상클래스
+ */
+abstract class Animal{
+	abstract void 움직인다();
+}
+abstract class 포유류{}
+abstract class 조류{}
+abstract class 어류{}
+
+class 고래 extends 포유류{
+
+	@Override
+	void 움직인다() {
+		System.out.println("헤엄친다.");
+	}
+	
+}
+class 팽귄 extends 조류{
+
+	@Override
+	void 움직인다() {
+		System.out.println("헤엄친다.");
+	}
+	
+}
+class 상어 extends 어류{
+
+	@Override
+	void 움직인다() {
+		System.out.println("헤엄친다.");
+	}
+	
+}
+public class Ex03 {
+	public static void main(String[] args) {
+		
+	}
+}

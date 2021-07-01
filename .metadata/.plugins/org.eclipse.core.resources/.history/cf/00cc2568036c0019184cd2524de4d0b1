@@ -1,0 +1,9 @@
+package day20;
+
+public class Person {
+	String name;
+	int age;
+	Info(String name, int age){
+		this.name = name; this.age = age;
+	}
+}

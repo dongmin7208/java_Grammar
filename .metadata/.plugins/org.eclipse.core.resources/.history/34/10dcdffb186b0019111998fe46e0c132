@@ -1,0 +1,8 @@
+package day19;
+class Info{
+	String name;
+	int age;
+}
+public class Ex01 {
+	
+}
